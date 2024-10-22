@@ -6,19 +6,20 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct ContentView: View {
+struct StartView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Welcome!")
+            Text("Quake")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    StartView()
 }
